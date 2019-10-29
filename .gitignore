@@ -1,0 +1,8 @@
+# Exclude the creds
+terraform/creds/*
+
+# Exclude the plugins
+terraform/.terraform/
+
+# Exclude the state on purpose
+terraform/terraform.tfstate*
